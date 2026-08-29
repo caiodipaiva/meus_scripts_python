@@ -2,35 +2,55 @@
 
 Repositório destinado ao registro da minha evolução no desenvolvimento com Python, reunindo scripts e pequenos projetos desenvolvidos durante meus estudos.
 
-O objetivo é aplicar conceitos de programação em projetos práticos, explorando desenvolvimento, automação e fundamentos de cibersegurança.
+O objetivo é aplicar conceitos de programação em projetos práticos, desenvolvendo conhecimentos que também possam ser aplicados à área de cibersegurança.
 
 ## Projetos
 
 ### Analisador de Senhas
 
-Script desenvolvido em Python para verificar critérios básicos de segurança de uma senha.
+Script desenvolvido em Python para analisar critérios básicos de segurança de uma senha.
 
-Atualmente, o programa verifica:
+O programa verifica:
 
 * Comprimento mínimo de 8 caracteres;
 * Presença de números;
-* Presença de letras maiúsculas.
+* Letras maiúsculas;
+* Letras minúsculas;
+* Caracteres especiais.
 
-O projeto será aprimorado conforme avanço nos estudos de Python e cibersegurança.
+O projeto utiliza conceitos de lógica de programação, estruturas condicionais, laços de repetição, métodos de strings e variáveis booleanas.
 
-### Controle de Acesso
+Projeto desenvolvido com finalidade educacional.
 
-Sistema simples de controle de acesso desenvolvido em Python.
+### Locadora de Filmes
 
-O programa possui:
+Aplicação desenvolvida em Python utilizando SQLite para simular o funcionamento de uma locadora de filmes.
 
-* Cadastro de usuários autorizados;
-* Validação de nome e senha;
-* Limite de tentativas de acesso;
-* Validação dos dados de entrada;
-* Bloqueio após tentativas consecutivas incorretas.
+O programa permite:
 
-O projeto também utiliza conceitos relacionados à segurança de autenticação, como o uso de mensagens genéricas para evitar a exposição desnecessária de informações sobre os usuários cadastrados.
+* Listar filmes disponíveis;
+* Cadastrar novos filmes;
+* Alugar filmes;
+* Registrar clientes e aluguéis;
+* Remover filmes;
+* Armazenar informações em um banco de dados SQLite;
+* Validar entradas do usuário;
+* Tratar erros utilizando `try/except`.
+
+O projeto também utiliza operações CRUD e consultas SQL.
+
+## Tecnologias e conceitos
+
+* Python
+* SQLite
+* SQL
+* Estruturas condicionais
+* Laços de repetição
+* Funções
+* Tratamento de exceções
+* Validação de dados
+* Operações CRUD
+* Manipulação de banco de dados
 
 ## Objetivo
 
@@ -38,12 +58,14 @@ Utilizar este repositório para acompanhar minha evolução em Python por meio d
 
 Atualmente, meus estudos estão direcionados para:
 
-* Python;
-* Automação;
-* Redes;
-* Cibersegurança;
-* Blue Team.
+* Python
+* Automação
+* Redes
+* Cibersegurança
+* Blue Team
 
 ## Em desenvolvimento
 
-Este repositório está em constante evolução. Novos projetos, funcionalidades e melhorias serão adicionados conforme avanço nos estudos e na prática com Python.
+Este repositório está em constante evolução.
+
+Novos projetos, funcionalidades e melhorias serão adicionados conforme avanço nos estudos e na prática com Python.
